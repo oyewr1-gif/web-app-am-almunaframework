@@ -8,8 +8,8 @@ class HomeController extends Controller {
 
     public function index() {
         // Memanggil Model secara aman
-        $userModel = $this->model('UserModel');
-        $allUsers  = $userModel->getAll();
+        //$userModel = $this->model('UserModel');
+        //$allUsers  = $userModel->getAll();
 
         // Menyiapkan data untuk dikirim ke view
         $data = [
